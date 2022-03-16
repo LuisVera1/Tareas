@@ -1,0 +1,30 @@
+
+#container{
+  position: relative;
+  top: 50px;
+  left: 400px;
+}
+
+.caja{
+  width: 150px;
+  height: 150px;
+  margin:  10px;
+  position: relative;
+}
+
+#c1{
+  background-color: red;
+}
+
+#c2{
+  top: -30px;
+  left: 130px;
+  background-color: orange;
+  z-index: 1;
+}
+
+#c3{
+  top: -320px;
+  left: 260px;
+  background-color: red;
+}
