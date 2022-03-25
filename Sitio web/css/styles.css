@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000000;
+    font-family: "Roboto", sans-serif;
+}
+
+#logo{
+    width: 75px;
+}
+
+header, footer, #pagina{
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pagina{
+    min-height: 300px;
+}
+
+/* Quitar estilos de viñetas a las listas */
+ul{
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-items: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #101010;
+    padding: 0 16px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+#T3M{
+    text-align: center;  
+}
+
+#top{
+    width: 200px;
+    height: 702px;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secciones{
+    list-style: none;
+    text-decoration: none;
+    color: #f19f07;
+}
+
+.Top3{
+    width: 161px;
+    height: 228px;
+    margin: 3px;
+}
+
+#Categorias{
+    text-align: center;
+}
+
+
+header nav{
+    width: 90%;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.navLink a{
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.page{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main{
+    padding: 10px;
+    flex: 3;
+}
+
+.main .articlesContainer{
+    width: 100%;
+    padding: 20px 0;
+    margin-right: 1.5%;
+}
+
+.articlesContainer article{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 1.5%;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.sidebar{
+    /* flex: 1; */
+    padding: 10px;
+    background-color: rgb(229, 9, 20);
+    color: #FFFFFF;
+    border-radius: 6px;
+}
+
+footer{
+    background-color: #101010;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+footer>a{
+    color: #707070;
+    padding: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+#galeria{
+    background-color: #101010;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fotos{
+    height: 206px;
+    width: 306px;
+    background-color: #000000;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+}
+
+.gal{
+    width: 300px;
+}
+
+.gde{
+    height: 200px;
+}
